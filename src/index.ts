@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import morgan from 'morgan';
 
 // Import main router
-import mainRouter from './routes';
+import mainRouter from './interface/routes';
 
 dotenv.config();
 
