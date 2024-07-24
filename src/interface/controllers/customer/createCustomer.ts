@@ -1,6 +1,6 @@
 import { CustomerUseCases } from '../../../application/useCases/CustomerUseCases';
 import { CustomerEntity } from '../../../domain/entities/customer.entity';
-import {MongoCustomerRepository}  from '../../../infrastructure/repositories/MongoCostumerRepository'
+import {MongoCustomerRepository}  from '../../../infrastructure/repositories/MongoCustomerRepository'
 import { v4 as uuidv4 } from 'uuid';  // Importa uuid
 
 const customerRepository = new MongoCustomerRepository();
